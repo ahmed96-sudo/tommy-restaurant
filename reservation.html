@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Reservation</title>
+		<link rel="stylesheet" href="reservation.css" >
+		<link rel="shortcut icon" href="images/restaurant.png" type="image/x-icon">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	</head>
+	<body>
+        <header>
+            <a href="index.html"><img src="images/restaurant.png" alt="logo"></a>
+            <h2 class="logo">Tommy's Restaurant</h2>
+            <nav>
+                <ul>
+                    <li><a href="reservation.html" target="_blank">Reservation</a></li>
+                    <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                    <li><a href="fd&rt.html" target="_blank">Feedback & Rate</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h1 class="heading">Reservation</h1>
+            <form action="#" method="post">
+                <input type="text" name="name" id="name" placeholder="Name" maxlength="100" required><br>
+                <input type="number" name="phnnmb" id="phnnmb" placeholder="Phone Number"><br>
+                <input type="datetime-local" name="day&hour" id="day&hour" required><br>
+                <input type="number" name="pplnmb" id="pplnmb" placeholder="For(ex.For 2 poeple)"><br>
+                <input type="submit" value="Book Now" id="submit">
+            </form>
+        </div>
+        <footer>
+            <h3>Tommy's Restaurant</h3>
+            <p>All rights reserved for Tommy's Restaurant. Website designed & created by Ahmed.</p>
+            <article>modern & innovative Indian Website</article>
+		</footer>
+    </body>
+</html>

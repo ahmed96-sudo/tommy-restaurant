@@ -1,0 +1,208 @@
+body {
+    background-image: url("images/images(3).jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+header {
+		background-color: #555;
+		border-radius: 20px;
+    }
+    header img {
+        float: left;
+    }
+	header .logo {
+        text-align: right;
+		color: #fff;
+		padding: 40px 0 0 75px;
+		font-size: 50px;
+		font-style: italic;
+	}
+    header nav {
+        text-align: center;
+    }
+	header nav ul li {
+		list-style-type: none;
+		display: inline-block;
+        padding: 25px 20px;
+        font-size: 25px;
+	}
+	header nav ul li a {
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+	}
+    /*div .the_first {
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+    }
+    div .img {
+        width: 100%;
+        height: 50%;
+	}*/
+	.container {
+		text-align: center;
+	}
+	.container .tb {
+		border: solid 2px #000;
+		width: 100%;
+      	border-collapse: collapse;
+	}
+    .container .tb caption {
+      caption-side: top;
+      text-transform: uppercase;
+      font-size: 40px;
+    }
+	.container .tb tr {
+		height: 400px;
+		width: 100%;
+	}
+	.container .tb tr td {
+		height: 100%;
+		width: 33.33333%;
+		border: solid 2px #000;
+		font-size: 30px;
+	}
+	.container .tb tr td img {
+		height: 250px;
+		width: 100%;
+		border-radius: 20px;
+	}
+	.container h4 {
+		text-align: center;
+		text-transform: capitalize;
+		font-size: 40px;
+	}
+	.container h5 {
+		text-align: center;
+		text-transform: capitalize;
+		font-size: 30px;
+	}
+	.container .hours {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		width: 380px;
+		font-size: 30px;
+	}
+	.container #book {
+		text-decoration: none;
+		color: black;
+		text-align: center;
+		background-color: #f00;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		height: 60px;
+		width: 300px;
+		font-size: 35px;
+		border-radius: 20px;
+	}
+	.container #book:hover {
+		background-color: transparent;
+		transition: background-color 0.5s ease-in;
+	}
+	.container .road {
+		text-align: center;
+		text-transform: capitalize;
+		font-weight: bold;
+		font-size: 30px;
+		margin: 15px 0;
+	}
+	.container .testimonials h2 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 30px 0 10px 0;
+	}
+	.container .testimonials q,.testimonials p {
+		text-transform: capitalize;
+		font-weight: bold;
+		font-size: 20px;
+		font-style: italic;
+	}
+	footer {
+		background-color: #555;
+		border-radius: 20px;
+	}
+	footer h3 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 30px;
+		padding: 10px 0;
+	}
+	footer p {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	footer article {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+@media screen and (max-width: 425px) {
+	header img {
+		width: 250px;
+	}
+	h2.logo {
+		text-align: center;
+	}
+	footer p {
+		font-weight: normal;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

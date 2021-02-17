@@ -1,0 +1,113 @@
+body {
+    background-image: url("images/images(3).jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+header {
+		background-color: #555;
+		border-radius: 20px;
+    }
+    header img {
+        float: left;
+    }
+	header .logo {
+        text-align: right;
+		color: #fff;
+		padding: 40px 0 0 75px;
+		font-size: 50px;
+		font-style: italic;
+	}
+    header nav {
+        text-align: center;
+    }
+	header nav ul li {
+		list-style-type: none;
+		display: inline-block;
+        padding: 25px 20px;
+        font-size: 25px;
+	}
+	header nav ul li a {
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+	}
+	.container {
+		text-align: center;
+		width: 100%;
+	}
+	.container input {
+		text-align: center;
+		padding: 5px;
+		margin: 8px;
+		font-size: 25px;
+		border-radius: 20px;
+	}
+	#msg {
+		font-size: 20px;
+		border-radius: 20px;
+	}
+	#submit {
+		padding: 15px;
+		background-color: #BEB3B2;
+		font-size: 30px;
+		border-radius: 20px;
+	}
+	#submit:hover {
+		background-color: transparent;
+		transition: background-color 0.5s ease-in;
+	}
+	.contact-auto {
+		height: 100px;
+		width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	.face {
+		margin-left: -15px;
+		margin-right: 15px;
+	}
+	.linkedin {
+		margin-right: 15px;
+		border-radius: 20px;
+	}
+    footer {
+		background-color: #555;
+		border-radius: 20px;
+	}
+	footer h3 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 30px;
+		padding: 10px 0;
+	}
+	footer p {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	footer article {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	@media screen and (max-width: 425px) {
+		header img {
+			width: 250px;
+		}
+		h2.logo {
+			text-align: center;
+		}
+		footer p {
+			font-weight: normal;
+		}
+		.face {
+			margin-left: -21px;
+			margin-right: 5px;
+		}
+		.linkedin {
+			margin-right: 10px;
+		}
+	}

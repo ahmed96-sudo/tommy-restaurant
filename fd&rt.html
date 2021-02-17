@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Feedbcak & Rate</title>
+		<link rel="stylesheet" href="fd&rt.css" >
+		<link rel="shortcut icon" href="images/restaurant.png" type="image/x-icon">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	</head>
+	<body>
+        <header>
+            <a href="index.html"><img src="images/restaurant.png" alt="logo"></a>
+            <h2 class="logo">Tommy's Restaurant</h2>
+            <nav>
+                <ul>
+                    <li><a href="reservation.html" target="_blank">Reservation</a></li>
+                    <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                    <li><a href="fd&rt.html" target="_blank">Feedback & Rate</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h1>Feedback & Rate</h1>
+            <form action="#" method="post">
+                <input type="text" name="name" id="name" placeholder="Type Your Name" required><br>
+                <textarea name="fd&rt" id="fd&rt" cols="30" rows="10" required placeholder="Type Your Feedback"></textarea><br>
+                <label for="rt">Rate:</label>
+                <select name="star" id="star" required>
+                    <option value="1 Star">1 Star</option>
+                    <option value="2 Stars">2 Stars</option>
+                    <option value="3 Stars">3 Stars</option>
+                    <option value="4 Stars">4 Stars</option>
+                    <option value="5 Stars">5 Stars</option>
+                </select><br>
+                <input type="submit" value="Send" id="submit">
+            </form>
+        </div>
+        <footer>
+            <h3>Tommy's Restaurant</h3>
+            <p>All rights reserved for Tommy's Restaurant. Website designed & created by Ahmed.</p>
+            <article>modern & innovative Indian Website</article>
+		</footer>
+    </body>
+</html>

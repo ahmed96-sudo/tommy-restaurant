@@ -1,0 +1,92 @@
+body {
+    background-image: url("images/images(3).jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+header {
+		background-color: #555;
+		border-radius: 20px;
+    }
+    header img {
+        float: left;
+    }
+	header .logo {
+        text-align: right;
+		color: #fff;
+		padding: 40px 0 0 75px;
+		font-size: 50px;
+		font-style: italic;
+	}
+    header nav {
+        text-align: center;
+    }
+	header nav ul li {
+		list-style-type: none;
+		display: inline-block;
+        padding: 25px 20px;
+        font-size: 25px;
+	}
+	header nav ul li a {
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+	}
+	.container {
+		text-align: center;
+		width: 100%;
+	}
+	.container label {
+		font-weight: bold;
+	}
+	input {
+		padding: 5px;
+		margin: 5px;
+		text-align: center;
+		font-size: 25px;
+		border-radius: 20px;
+	}
+	#submit {
+		padding: 15px;
+		background-color: #BEB3B2;
+		font-size: 30px;
+		border-radius: 20px;
+	}
+	#submit:hover {
+		background-color: transparent;
+		transition: background-color 0.5s ease-in;
+	}
+	footer {
+		background-color: #555;
+		border-radius: 20px;
+	}
+	footer h3 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 30px;
+		padding: 10px 0;
+	}
+	footer p {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	footer article {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	@media screen and (max-width: 425px) {
+		header img {
+			width: 250px;
+		}
+		h2.logo {
+			text-align: center;
+		}
+		footer {
+			height: 225px;
+		}
+		footer p {
+			font-weight: normal;
+		}
+	}
